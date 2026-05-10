@@ -48,12 +48,6 @@ img {
   max-width: 100%;
 }
 
-.portrait-frame img {
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
-}
-
 a {
   color: inherit;
   text-decoration: none;
@@ -134,8 +128,8 @@ main section[id] {
 
 .section-heading h2,
 .hero-copy h1,
-.spotlight-card h2,
-.hero-summary h2 {
+.hero-summary h2,
+.spotlight-card h2 {
   margin: 0;
   font-family: "Newsreader", Georgia, serif;
   font-weight: 600;
@@ -402,30 +396,23 @@ main section[id] {
 }
 
 .hero-card {
-  padding: 1rem;
+  display: grid;
+  gap: 1.4rem;
+  padding: 1.4rem;
   box-shadow: var(--shadow-float);
 }
 
-.portrait-frame {
-  border-radius: calc(var(--radius-md) - 0.3rem);
-  overflow: hidden;
-  background:
-    radial-gradient(circle at top, rgba(15, 76, 129, 0.18), transparent 30%),
-    linear-gradient(180deg, #f7fbff 0%, #e9f1fb 100%);
-}
-
-.portrait-caption {
+.hero-card-header {
   display: grid;
   gap: 0.25rem;
-  padding: 1.2rem 0.5rem 0;
 }
 
-.portrait-name,
-.portrait-role {
+.hero-card-name,
+.hero-card-role {
   margin: 0;
 }
 
-.portrait-name {
+.hero-card-name {
   color: var(--color-text);
   font-size: 1rem;
   font-weight: 800;
@@ -433,7 +420,7 @@ main section[id] {
   text-transform: uppercase;
 }
 
-.portrait-role {
+.hero-card-role {
   color: var(--color-muted);
   font-size: 0.96rem;
   line-height: 1.5;
@@ -442,7 +429,6 @@ main section[id] {
 .hero-summary {
   display: grid;
   gap: 1.4rem;
-  padding: 1rem 0.5rem 0.35rem;
 }
 
 .hero-facts {

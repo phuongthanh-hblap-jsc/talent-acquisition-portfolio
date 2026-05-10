@@ -20,7 +20,7 @@ This portfolio presents an early-career talent acquisition profile with a clean,
 
 Current site highlights:
 
-- Real portrait integrated in the hero card
+- Text-only hero section with profile summary card
 - Real LinkedIn profile wired into all LinkedIn CTAs
 - Employer branding section updated with approved LinkedIn-focused content and a recent post reference
 - Mobile-first responsive layout
@@ -46,7 +46,6 @@ The current page includes:
 - `index.html` - main page markup and content
 - `styles.css` - layout, responsive styling, visual system, and animations
 - `script.js` - mobile nav toggle, reveal-on-scroll, and section tracking
-- `assets/profile-photo.png` - active portrait used in the hero card
 - `assets/readme-preview.png` - screenshot preview used in this README
 - `assets/avatar-placeholder.svg` - fallback placeholder asset kept in the repo
 
@@ -70,7 +69,6 @@ Deploy directly with GitHub Pages:
 Already updated in the project:
 
 - Portfolio owner name: `Phuong Thanh Hoang`
-- Hero portrait image
 - LinkedIn profile URL
 - Contact email: `thanhht@hblab.vn`
 - Employer branding panel content based on active LinkedIn hiring posts
