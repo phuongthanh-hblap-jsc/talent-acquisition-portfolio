@@ -1,38 +1,79 @@
-# Talent Acquisition Portfolio
+# Phuong Thanh Hoang Portfolio
 
-Premium one-page static portfolio website for a Junior Talent Acquisition Specialist at HBLAB JSC. The site is built with pure HTML, pure CSS, and vanilla JavaScript, and can be deployed directly to GitHub Pages without any build step.
+One-page static portfolio for **Phuong Thanh Hoang**, a **Junior Talent Acquisition Specialist** at **HBLAB JSC**.
 
-## Files
+The site is built with:
 
-- `index.html` - semantic one-page portfolio structure
-- `styles.css` - responsive layout, visual system, and motion
-- `script.js` - mobile navigation, reveal-on-scroll, and active section states
-- `assets/profile-photo.png` - local portrait used in the hero section
-- `assets/avatar-placeholder.svg` - fallback placeholder kept in the repo
+- HTML
+- CSS
+- Vanilla JavaScript
 
-## Design Notes
+It is designed for direct deployment on **GitHub Pages** with no build step and no backend.
 
-- Apple-inspired clean interface with white and soft gray surfaces
-- Deep blue accent color and rounded premium cards
-- Mobile-first responsive layout with larger desktop compositions
-- Calm, professional tone suitable for HR and recruitment branding
-- Content avoids exaggerated senior-level claims or fake performance metrics
+## Project Overview
 
-## Run Locally
+This portfolio presents an early-career talent acquisition profile with a clean, premium visual style and grounded content for technology recruitment.
+
+Current site highlights:
+
+- Real portrait integrated in the hero card
+- Real LinkedIn profile wired into all LinkedIn CTAs
+- Mobile-first responsive layout
+- Apple-inspired white, soft gray, and deep blue visual system
+- Semantic one-page structure for public portfolio use
+- Lightweight JavaScript for mobile navigation, section reveal, and active nav states
+
+## Page Sections
+
+The current page includes:
+
+- Header and sticky navigation
+- Hero section
+- About
+- Skills
+- Recruitment Work
+- Candidate Experience
+- Employer Branding
+- Contact
+
+## File Structure
+
+- `index.html` - main page markup and content
+- `styles.css` - layout, responsive styling, visual system, and animations
+- `script.js` - mobile nav toggle, reveal-on-scroll, and section tracking
+- `assets/profile-photo.png` - active portrait used in the hero card
+- `assets/avatar-placeholder.svg` - fallback placeholder asset kept in the repo
+
+## Local Preview
 
 Open `index.html` directly in a browser.
 
-## Deploy to GitHub Pages
+If you prefer a local server, any simple static server will work.
 
-1. Push this repository to GitHub.
-2. Go to `Settings > Pages`.
-3. Set the source to deploy from the main branch root.
-4. Save and wait for GitHub Pages to publish the site.
+## Deployment
 
-## Customize Before Publishing
+Deploy directly with GitHub Pages:
 
-- Replace `Phuong Thanh Hoang` only if the portfolio owner name changes.
-- Replace the email placeholder in the contact section.
-- Update the LinkedIn URL only if the profile link changes.
-- Replace `assets/profile-photo.png` only if a newer approved portrait is available.
-- Update any employer branding placeholder figures only after approval.
+1. Push the repository to GitHub.
+2. Open `Settings > Pages`.
+3. Select the main branch root as the source.
+4. Save and wait for publication.
+
+## Current Content State
+
+Already updated in the project:
+
+- Portfolio owner name: `Phuong Thanh Hoang`
+- Hero portrait image
+- LinkedIn profile URL
+
+Still placeholder or approval-sensitive:
+
+- Contact email
+- Any employer branding audience metrics
+- Any future wording that would overstate title, company history, or experience level
+
+## Notes
+
+- The site copy is intentionally written to stay credible for around one year of HR and recruitment experience.
+- The portfolio should remain aligned with a **Talent Acquisition** profile, not unrelated claims such as Apple or Google product titles.
