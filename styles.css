@@ -501,9 +501,28 @@ main section[id] {
 
 .stat-card {
   display: grid;
+  grid-template-rows: auto minmax(160px, 1fr) auto;
   gap: 1.2rem;
-  align-content: space-between;
+  align-items: start;
+  min-height: 340px;
+}
+
+.stat-card p {
+  margin: 0;
+}
+
+.stat-visual {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   min-height: 180px;
+}
+
+.stat-visual img {
+  width: 100%;
+  max-width: 240px;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
 }
 
 .stat-number,
@@ -567,6 +586,19 @@ main section[id] {
 .branding-panel {
   display: grid;
   gap: 1.4rem;
+}
+
+.branding-link {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  color: var(--color-primary);
+  font-weight: 700;
+}
+
+.branding-link:hover,
+.branding-link:focus-visible {
+  color: var(--color-primary-strong);
 }
 
 .branding-metrics {
@@ -709,6 +741,18 @@ main section[id] {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+  }
+
+  .stat-card {
+    min-height: 420px;
+  }
+
+  .stat-visual {
+    min-height: 210px;
+  }
+
+  .stat-card p {
+    min-height: calc(1.8em * 4);
   }
 }
 
